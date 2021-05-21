@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/355b76ed74.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+
+        <div class="fluid-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+
+                <a class="navbar-brand" href="#">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" id="hoMe" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" id="navItem1" href="#hoMe1">
+                            Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                        <a class="nav-link" id="navItem2" href="#whyChooseUs">
+                            Why Choose Us?
+                        </a>
+                        <a class="nav-link" href="#exploreMenu" id="navItem3">Explore Menu</a>
+                        <a class="nav-link" href="#deliveryPayments" id="navItem4">Delivery & Payment</a>
+                        <a class="nav-link" href="#followUs" id="navItem5">Follow Us</a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+        <div id="hoMe1" class="banner-section-bg-container d-flex justify-content-center flex-column">
+            <div class="banner-section-content-container text-center">
+
+                <h1 class="banner-heading mb-3">Get Delicious Food Anytime</h1>
+                <p class="banner-caption mb-4">Eat Smart & Healthy</p>
+                <button class="custom-button" onclick="display('section2')">View Menu</button>
+                <button class="custom-outline-button" onclick="display('section2')">Order Now</button>
+            </div>
+        </div>
+
+        <div id="whyChooseUs" class="wcu-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="wcu-section-heading">Why Choose Us?</h1>
+                        <p class="wcu-section-description">
+                            We use both original recipes and classic versions of famous food
+                            items.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-serve.png" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Food Service</h1>
+                            <p class="wcu-card-description">
+                                Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/fruits-img.png" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Fresh Food</h1>
+                            <p class="wcu-card-description">
+                                The Fresh Food group provides fresh-cut fruits and vegetables
+                                directly picked from our partner farms and farm houses so that
+                                you always get them tree to plate.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="wcu-card p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="wcu-card-image" />
+                            <h1 class="wcu-card-title mt-3">Best Offers</h1>
+                            <p class="wcu-card-description">
+                                Food Coupons & Offers upto
+                                <span class="offers">50% OFF</span>
+                                and Exclusive Promo Codes on All Online Food Orders.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="exploreMenu" class="explore-menu-section pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="menu-section-heading">Explore Menu</h1>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow-lg menu-item-card p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Non-Veg Starters</h1>
+                            <a class="view-all" onclick="display('section5')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="shadow menu-item-card p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Veg Starters</h1>
+                            <a class="view-all" onclick="display('section3')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-soup-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Soups</h1>
+                            <a class="view-all" onclick="display('section4')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-grilled-seafood-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Fish & Sea food</h1>
+                            <a class="view-all" onclick="display('sectionn')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Main Course</h1>
+                            <a class="view-all" onclick="display('section6')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-mushroom-noodles-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Noodles</h1>
+                            <a class="view-all" onclick="display('sectionns')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-gluten-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Salads</h1>
+                            <a class="view-all" onclick="display('section7')">
+                                View All
+                                <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="menu-item-card shadow p-3 mb-3">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png" class="menu-item-image w-100" />
+                            <h1 class="menu-card-title">Desserts</h1>
+                            <a class="view-all" onclick="display('section8')">
+                                View All
+                                <svg onclick="display('section11')" width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="foodmunch-content-card p-4 mt-4">
+                        <h1 class="wcu-section-heading">Fresh, Healthy, Organic, Delicious Fruits</h1>
+                        <p class="wcu-card-description">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+                        <button class="custom-button" onclick="display('section12')"> Learn More</button>
+                    </div>
+                    <div class="m-5">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" alt="" class="discount-image w-100" />
+                    </div>
+                    <div id="deliveryPayments" class="foodmunch-content-card p-4 mt-2">
+                        <h1 class="wcu-section-heading">Delivery and Payment</h1>
+                        <p class="wcu-card-description">Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
+                        <button class="custom-button" onclick="display('section13')"> Order Now</button>
+                    </div>
+                    <div class="text-center w-100 m-4">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" />
+                    </div>
+                    <div class="p-4 m-4 bg-light text-center gift-section-redeem-bg">
+                        <h1 class="wcu-section-heading mb-2">
+                            Thank you for being a valuable customer to us.
+                        </h1>
+                        <p class="wcu-card-description mb-2">
+                            We have a surprise gift for you
+                        </p>
+                        <div class="text-center mt-4">
+                            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="w-50" />
+                        </div>
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title modal-content" id="exampleModalLabel">You have won a Voucher. Thank You.</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="followUs" class="fluid-container">
+            <div class="Bottom-section-adress-card bg-dark p-4" style=" color:white; font-family:Georgia; font-size:15px; ">
+
+                <div class="text-center mb-1">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png" class="food-munch-logo" />
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="followus-section-icon-container">
+                            <a href="https://twitter.com/Satishk73312705?s=08" target="_blank"> <i class="fab fa-twitter followus-section-icon"></i></a>
+                        </div>
+                        <div class="followus-section-icon-container">
+                            <a href="https://www.instagram.com/satishkumar_16?r=nametag " target="_blank"> <i class="fab fa-instagram-square followus-section-icon"> </i></a>
+                        </div>
+                        <div class="followus-section-icon-container">
+                            <a href="https://www.facebook.com/profile.php?id=100005349618489" target="_blank"> <i class="fab fa-facebook followus-section-icon"></i></a>
+                        </div>
+                        <div class="followus-section-icon-container">
+                            <a href="https://www.linkedin.com/in/satish-kumar-pallapu-6920651a8" target="_blank"> <i class="fab fa-linkedin followus-section-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center">orderfood@foodmunch.com</p>
+                <p class="text-center">PMH Colony,Kamareddy,Telangana,503111</p>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div id="section2" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="ml-1 fixed-top bg-light">
+                    <a ml-0 style="font-weight:bold; font-family:breeserif;"><svg onclick="display('section1')" style="Color:gray; width:40px; height:80px" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-fill ml-2 " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                        </svg>Home
+                    </a>
+                </div>
+                <div class="col-12 mb-2 mt-5">
+                    <h1 class="ordernow-section-container-title">Your Neighbours Are Started Ordering...</h1>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png" class="ordernow-image w-100" />
+                        <a href="#section5" onclick="display('section5')">
+                            <h1 class="ordernow-section-card-title pb-1">Non-Veg</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-veg-starters-img.png" class="ordernow-image w-100" />
+                        <a href="#section3" onclick="display('section3')">
+                            <h1 class="ordernow-section-card-title pb-1">Veg-Starters</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-soup-img.png" class="ordernow-image w-100" />
+                        <a href="#section4" onclick="display('section4')">
+                            <h1 class="ordernow-section-card-title pb-1">Soups</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-hyderabadi-biryani-img.png" class="ordernow-image w-100" />
+                        <a href="#section6" onclick="display('section6')">
+                            <h1 class="ordernow-section-card-title pb-1">Main-Course</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-gluten-img.png" class="ordernow-image w-100" />
+                        <a href="#section7" onclick="display('section7')">
+                            <h1 class="ordernow-section-card-title pb-1">Salads</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4 col-md-2 col-lg-4 p-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-coffee-bourbon-img.png" class="ordernow-image w-100" />
+                        <a href="#section8" onclick="display('section8')">
+                            <h1 class="ordernow-section-card-title pb-1">Desserts</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="container mt-2">
+                    <div class="row">
+                        <div class="col-12 mb-2">
+                            <h1 class="ordernow-section-container-title">Your Neighbours Are Started Ordering...</h1>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">NISAR ICECREAM PARLOR</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.1 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Beverages, Drinks only<br>
+                                    ₹40 for one . 19 mins</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-5">
+                            <div class="shadow ordernow-section-hotel-card">
+                                <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-hotel-image w-100" />
+                                <a>
+                                    <h1 class="ordernow-section-hotel-card-title pb-1">SHAJI DUM-BIRYANI HOUSE</h1>
+                                </a>
+                                <p class="ordernow-section-hotel-card-content ">4.3 Rating <span style="color:gray;">( 379 reviews )</span><br>
+                                    Biryani, Mandi Special<br>
+                                    ₹140 for one . 25 mins</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3" class="pt-2 pb-3">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-1 mt-2 fixed-top bg-light">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12">
+                    <h1 class="second-container-second-heading">Veg-Starters</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653012/paneer_620x350_51510901864_aobde8.webp" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Panner</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653012/rumali-paneer_620x330_41506595204_zh1ucq.jpg" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Rumali-Panner</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653012/zucchini-and-cream-cheese-rolls_620x333_61513082476_voegww.jpg" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Cream-Cheese-Rolls</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653012/rajma-kebab-625_625x350_81456813368_v0js5u.webp" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Rezma-Kebab</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653012/onion-rings-625_624x350_41461402013_qenh01.webp" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Onion Rings</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653011/corn-fritters_620x350_71491380801_akx3rq.jpg" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Corn Fritters</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653011/bruschetta_625x350_71506417841_awoeiy.jpg" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Bruschetta</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4  mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653010/matar-ke-kebab-recipe_724x483_41509692694_a6hefh.jpg" class="ordernow-image w-100" />
+                        <h1 class="ordernow-section-card-title pb-1">Matar-ke-kebab</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section4" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-1 mt-2 fixed-top bg-light ">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12 mb-3 mt-5">
+                    <h1 class="second-container-second-heading">Soups</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652939/cauliflower-soup-with-fancy-chorizo-topping-a2af21e_yp5glb.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Cauliflower Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653009/mushroom_soup-9b55c55_qlhuyj.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">mushroom</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653009/recipe-image-legacy-id-879453_11-5257860_rokdq6.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Pumpkin Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653009/cider-onion-soup-with-cheese-apple-toasts-a8ade81_riqp64.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Onion Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653009/recipe-image-legacy-id-1116452_11-a8988c1_hdlgi8.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Tamato Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653008/lentil_soup-c6fa61c_zpv7he.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Lentil Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653008/recipe-image-legacy-id-1074500_11-ee0d41a_zzt36r.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Spiced Carrot Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653007/carrot-and-coriander-soup-recipe-e71fd8f_xokocj.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Coriander Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652793/chicken-sweetcorn-soup-812b251_lkjpkv.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Chicken Corn Soup</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653007/carrot-and-coriander-soup-recipe-e71fd8f_xokocj.webp" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Coriander Soup</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section5" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3 mt-5 fixed-top bg-light">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12 mb-3">
+                    <h1 class="second-container-second-heading">Non-Veg Starters</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653011/Indian_Chicken_Keema_Sliders_400_yk6gpl.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Chicken Keema Sliders</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653010/matar-ke-kebab-recipe_724x483_41509692694_a6hefh.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Matar ke Kebab</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section6" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2 mt-3 fixed-top bg-light">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12 mt-2 mb-2">
+                    <h1 class="second-container-second-heading">Main-Course</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653019/Chicken-Biryani-Recipe-500x375_odobuc.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Chicken Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653023/fish-biryani-2_xfmifm.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Fish Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653020/hyderabadi-prawn-biryani-recipe_ej1sqq.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Prawn Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653018/CHETTINAD_STYLE_PRAWN_BIRYANI_400_cmpctq.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Chettinad Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653018/EGgBiryani-3-1024x1024_x19ion.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Egg Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653023/fish-biryani-2_xfmifm.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Fish Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-1">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606653015/veg-biryani-1024x685_rmzmu6.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Veg Biryani</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section7" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2 mt-3 fixed-top bg-light">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12 mt-2 ">
+                    <h1 class="second-container-second-heading">Salads</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652730/broccoli-salad_o81ag4.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Broccoli Salad</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652703/brussels-salad_hag86j.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Brussels</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652682/pasta-salad_sdijun.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Pasta</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652481/HoneyLime_Rainbow.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">HoneyLime</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606652682/pasta-salad_sdijun.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Pasta</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section8" class="pt-2 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-4 fixed-top bg-light">
+                    <svg onclick="display('section2')" width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-arrow-bar-left m-2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z" />
+                    </svg>
+                </div>
+                <div class="col-12 mt-3 mb-2">
+                    <h1 class="second-container-second-heading">Desserts</h1>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659654/maltesers-tiramisu-74785-1_jp5vp0.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Maltesers</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659652/RFO-1400x919-Galette-4f11261b-5290-4f55-99b0-27bb531a478f-0-1400x919_io6cnp.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Galette</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659652/RFO-1400x919-classic-chocolate-mousse-69ef9c9c-5bfb-4750-80e1-31aafbd80821-0-1400x919_od1zay.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Chocolate Mousse</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659650/RFO-1400x919-Honey-Baked-Plums-76d5f07a-5fb6-459d-8e70-0d022e351eb0-0-1400x919_k6gj19.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Honey-Baked-Plums</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/summer-berry-trifles-32520-1_xqkebz.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Berry Triffle</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659648/espresso-martini-pavlova-167606-2_gkj6e5.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Espreso</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659647/marshmallow-pavlova-with-ice-cream-and-berries-80947-1_holose.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Marshmallow IceCream</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659644/cheats-mini-christmas-puddings-68618-1_1_tuahmu.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Mini Puddings</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659643/BREADandBUTTER-1400x919-ae54d3ed-67dd-4a11-bd27-7c81d946d528-0-1400x919_szsne4.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">BREAD and BUTTER</h1>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-2">
+                    <div class="shadow ordernow-section-card">
+                        <img src="https://res.cloudinary.com/satishkumarpallapu/image/upload/v1606659638/RFO-1400x919-Strawberry-syllabub-0fb61a5b-55a5-445c-88ce-8c402c19640c-0-1400x919_ientix.jpg" class="ordernow-image w-100" />
+                        <a>
+                            <h1 class="ordernow-section-card-title pb-1">Berry and Venila</h1>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
